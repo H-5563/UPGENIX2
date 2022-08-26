@@ -42,10 +42,10 @@ Feature: upgenix app login feature
           |                         | salesmanager |
           |                         |              |
 
-  @BRT-326
-  Scenario: Reset Password button
-    When User enters "reset password" button
-    Then  user go to  Reset password page
+ # @BRT-326
+  ##Scenario: Reset Password button
+   # When User enters "reset password" button
+    #Then  user go to  Reset password page
   @BRT-327
   Scenario Outline: User should see the password in bullet signs by default
     When User enters valid "<Username>" and valid "<Password>"
